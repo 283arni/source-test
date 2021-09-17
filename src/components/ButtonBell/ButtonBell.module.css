@@ -1,0 +1,21 @@
+.button {
+    background-color: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 3px;
+    position: relative;
+}
+
+.button:hover {
+    border-color: #000000;
+    opacity: 0.8;
+}
+
+.button:active {
+    opacity: 0.5;
+}
+
+.button img {
+    transform: rotate(20deg) translateX(5px);
+}

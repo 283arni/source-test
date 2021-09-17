@@ -1,0 +1,8 @@
+.amount {
+    border: 1px solid #000000;
+    background-color: #f52020;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2px 3px;
+}

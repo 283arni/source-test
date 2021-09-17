@@ -1,0 +1,15 @@
+.header {
+    position: relative;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000000;
+    background-color: #cccccc;
+}
+
+.header span {
+    text-align: center;
+    flex: 1;
+}
+

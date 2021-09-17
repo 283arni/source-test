@@ -1,0 +1,13 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.event {
+    font-weight: bold;
+}
+
+.date {
+    font-size: 12px;
+}
