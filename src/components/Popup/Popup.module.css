@@ -12,8 +12,9 @@
     position: absolute;
     content: '';
     border: 20px solid transparent;
+    border-top: 0;
     border-bottom: 20px solid #cccccc;
-    top: -40px;
+    top: -20px;
     right: 20px;
 }
 
@@ -21,8 +22,9 @@
     position: absolute;
     content: '';
     border: 21px solid transparent;
+    border-top: 0;
     border-bottom: 21px solid #000000;
-    top: -42px;
+    top: -21px;
     right: 19px;
 }
 
@@ -36,4 +38,8 @@
     color: #000000;
     font-size: 12px;
     font-weight: bold;
+    background-color: transparent;
+    border-color: transparent;
+    text-decoration: underline;
+    cursor: pointer;
 }

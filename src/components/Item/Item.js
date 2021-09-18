@@ -1,11 +1,11 @@
 import classes from './Item.module.css';
 
 
-const Item = () => {
+const Item = ({item}) => {
   return (
     <li className={classes.item}>
-      <span className={classes.event}>Супер дела</span>
-      <span className={classes.date}>вчера</span>
+      <span className={classes.event}>{item.text}</span>
+      <span className={classes.date}>{item.date}</span>
     </li>
   )
 }

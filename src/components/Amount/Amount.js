@@ -1,10 +1,9 @@
 import classes from "./Amount.module.css";
 
-
-const Amount = () => {
+const Amount = ({length}) => {
   return (
     <div className={classes.amount}>
-      <span>20</span>
+      <span>{length}</span>
     </div>
   )
 }
